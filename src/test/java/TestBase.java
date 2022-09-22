@@ -1,4 +1,5 @@
 import manager.ApplicationManager;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 
@@ -12,7 +13,7 @@ public class TestBase {
 
     }
 
-    @AfterTest
+    @AfterSuite
     public void tearDown() {
         app.stop();
 
