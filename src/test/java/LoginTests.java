@@ -20,8 +20,6 @@ public class LoginTests extends TestBase {
 //        User user = new User();
 //        user.setEmail("noa");
 //        user.setPassword("Nnoa");
-
-
         User user = new User().withEmail("Nik@gmail.com").withPassword("123589$Nik");
 
         app.getHelperUser().openLoginRegistrationForm();
@@ -33,7 +31,6 @@ public class LoginTests extends TestBase {
     }
     @Test
     public void loginSuccess() {
-
 
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm("Nik@gmail.com", "123589$Nik");
@@ -53,7 +50,6 @@ public class LoginTests extends TestBase {
         Assert.assertFalse(app.getHelperUser().isLogged());
         Assert.assertTrue(app.getHelperUser().isAlertPresent());
         Assert.assertTrue(app.getHelperUser().isErrorWrongFormat());
-
 
     }
 

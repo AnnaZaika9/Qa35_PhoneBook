@@ -63,31 +63,40 @@ public class HelperUser extends HelperBase{
         Alert alert = wd.switchTo().alert();
         if(alert == null){
             return false;
-
         }else {
             return true;
         }
-
     }
-
     public boolean isErrorWrongFormat() {
         Alert alert = wd.switchTo().alert();
         String errorText = alert.getText();
         System.out.println(errorText);
-
         //click OK
         alert.accept();
+        return errorText.contains("Wrong email or password format");
 
         /*
-
         //click Cancel
         alert.dismiss();
         //type text
         alert.sendKeys("Hello");
-
          */
+    }
 
+
+    public boolean isAlertError(){
+        Alert alert = wd.switchTo().alert();
+
+        if(alert == null) return false;
+
+        String errorText = alert.getText();
+        alert.accept();
         return errorText.contains("Wrong email or password format");
 
+    }
+
+    public void submitRegistration() {
+        WebElement loginButton = wd.findElement(By.xpath("//*[text()=' Registration']"));
+        loginButton.click();
     }
 }
