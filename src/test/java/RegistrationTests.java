@@ -13,7 +13,7 @@ public class RegistrationTests extends TestBase {
     }
 
     @Test
-    public void registrationSuccess(){
+    public void registrationSuccess(){//hw
 
         int i = (int)(System.currentTimeMillis()/1000)%3600;
 
@@ -33,8 +33,22 @@ public class RegistrationTests extends TestBase {
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
         app.getHelperUser().submitRegistration();
-        app.getHelperUser().pause(2000);
+       // app.getHelperUser().pause(2000);
         Assert.assertTrue(app.getHelperUser().isLogged());
+        Assert.assertTrue(app.getHelperUser().isNoContactsHereDisplayed());
+    }
+
+    @Test
+    public void registrationWrongEmail(){
+        // @ . null ru hew
+        User user = new User().withEmail("Nikgmail.com").withPassword("123589$Nik");
+        app.getHelperUser().openLoginRegistrationForm();
+        app.getHelperUser().fillLoginRegistrationForm(user);
+        app.getHelperUser().submitRegistration();
+
+        Assert.assertFalse(app.getHelperUser().isLogged());
+        Assert.assertTrue(app.getHelperUser().isAlertWithErrorPresent("Wrong email or password format"));
+      //  Assert.assertTrue(app.getHelperUser().isAlertError());//hw
     }
 
     @Test
@@ -45,20 +59,22 @@ public class RegistrationTests extends TestBase {
         app.getHelperUser().submitRegistration();
 
         Assert.assertFalse(app.getHelperUser().isLogged());
-        Assert.assertTrue(app.getHelperUser().isAlertError());
+        Assert.assertTrue(app.getHelperUser().isAlertWithErrorPresent("Wrong email or password format"));
+       // Assert.assertTrue(app.getHelperUser().isAlertError());//hw
 
     }
+
+
     @Test
-    public void registrationWrongEmail(){
-        User user = new User().withEmail("Nikgmail.com").withPassword("123589$Nik");
+    public void registrationUserAlreadyExists() {
+
+        User user = new User().withEmail("noa@mail.com").withPassword("Nnoa12345$");
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
         app.getHelperUser().submitRegistration();
-
         Assert.assertFalse(app.getHelperUser().isLogged());
-        Assert.assertTrue(app.getHelperUser().isAlertError());
+        Assert.assertTrue(app.getHelperUser().isAlertWithErrorPresent("User already exist"));
     }
-
 
 
 }

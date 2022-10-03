@@ -28,7 +28,9 @@ public class HelperBase {
             element.clear();
             element.sendKeys(text);
         }
-
+    }
+    public void click(By locator){
+        wd.findElement(locator).click();
     }
 
 }
