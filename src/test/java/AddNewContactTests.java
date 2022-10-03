@@ -1,6 +1,7 @@
 
 import models.Contacts;
 import models.User;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -25,10 +26,15 @@ public class AddNewContactTests extends TestBase{
                 .address("Kiev, Ukraine")
                 .description("friend").build();
 
+        int contactCountBeforeCreation = app.helperContacts().getNumberOfContacts();
+
         app.helperContacts().addNewContact();
         app.helperContacts().fillContactForm(contacts);
-        app.helperContacts().pause(2000);
         app.helperContacts().save();
+
+        int contactCountAfterCreation = app.helperContacts().getNumberOfContacts();
+
+        Assert.assertEquals(contactCountAfterCreation, contactCountBeforeCreation + 1);
 
 
     }

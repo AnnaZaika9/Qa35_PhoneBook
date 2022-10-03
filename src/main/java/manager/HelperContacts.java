@@ -27,6 +27,12 @@ public class HelperContacts extends HelperBase{
 
     public void save() {
         click(By.cssSelector(".add_form__2rsm2 button"));
+    }
+
+    public int getNumberOfContacts() {
+        return wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).size()-1;
 
     }
+
+
 }
