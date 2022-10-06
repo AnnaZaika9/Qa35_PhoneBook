@@ -30,7 +30,7 @@ public class ApplicationManager {
         return helperUser;
     }
 
-    public HelperContacts helperContacts() {
+    public HelperContacts getContacts() {
         return helperContacts;
     }
 }

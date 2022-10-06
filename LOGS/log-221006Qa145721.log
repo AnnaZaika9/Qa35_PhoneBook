@@ -1,0 +1,3 @@
+14:57:49.616  INFO  TestBase - User remove all contacts
+14:57:59.039  INFO  TestBase - User login with data: email Nik@gmail.com & password 123589$Nik
+14:58:01.441  INFO  TestBase - User remove first contact
