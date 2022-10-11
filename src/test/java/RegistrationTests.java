@@ -24,12 +24,13 @@ public class RegistrationTests extends TestBase {
         Assert.assertTrue(app.getHelperUser().isLogged());
     }
 
-   @Test
+   @Test(invocationCount = 3)
     public void registrationSuccessModels(){
 
         int i = (int)(System.currentTimeMillis()/1000)%3600;
 
         User user = new User().withEmail("Nik"+i +"@gmail.com").withPassword("123589$Nik");
+        logger.info("data for test: "+user.toString());
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
         app.getHelperUser().submitRegistration();

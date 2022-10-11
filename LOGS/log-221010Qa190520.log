@@ -1,0 +1,6 @@
+19:05:20.810  INFO  manager.ListenerNG - onStart
+19:05:20.866  INFO  manager.ListenerNG - onStart
+19:05:21.202  INFO  manager.ListenerNG - onTestStart
+19:05:28.670  INFO  manager.ListenerNG - onTestSuccess
+19:05:28.676  INFO  manager.ListenerNG - onFinish
+19:05:28.681  INFO  manager.ListenerNG - onFinish

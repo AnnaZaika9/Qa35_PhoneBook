@@ -1,0 +1,19 @@
+23:35:54.256  INFO  manager.ApplicationManager - Chrome Driver was opened
+23:35:56.812  INFO  manager.ApplicationManager - Current URL is --->https://contacts-app.tobbymarshall815.vercel.app/home
+23:35:56.926  INFO  TestBase - START TEST WITH NAME: loginNegativeWrongPasswordFormat
+23:35:56.930  INFO  TestBase - Start checking authorization
+23:35:56.932  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+23:36:01.959  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+23:36:01.960  INFO  manager.ListenerWD - List size is ---->0
+23:36:01.961  INFO  TestBase - Test was not needed in logout 
+23:36:01.965  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+23:36:02.020  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+23:36:02.149  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+23:36:02.204  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+23:36:02.468  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+23:36:02.524  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+23:36:02.717  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //*[text()=' Login']
+23:36:02.754  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //*[text()=' Login']
+23:36:02.816  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+23:36:03.513  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+23:36:03.514  INFO  manager.ListenerWD - List size is ---->0

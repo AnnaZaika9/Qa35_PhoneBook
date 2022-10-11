@@ -1,0 +1,52 @@
+19:35:40.713  INFO  manager.ApplicationManager - Chrome Driver was opened
+19:35:43.327  INFO  manager.ApplicationManager - Current URL is --->https://contacts-app.tobbymarshall815.vercel.app/home
+19:35:43.462  INFO  TestBase - START TEST WITH NAME: removeFirstContact
+19:35:43.470  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+19:35:48.516  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+19:35:48.516  INFO  manager.ListenerWD - List size is ---->0
+19:35:48.519  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+19:35:48.582  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+19:35:48.716  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+19:35:48.791  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+19:35:49.071  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+19:35:49.133  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+19:35:49.361  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //*[text()=' Login']
+19:35:49.407  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //*[text()=' Login']
+19:35:49.462  INFO  manager.ListenerWD - before Find Elements By ---> By.cssSelector: .contact-item_card__2SOIM
+19:35:54.511  INFO  manager.ListenerWD - After Find Elements By ---> By.cssSelector: .contact-item_card__2SOIM
+19:35:54.511  INFO  manager.ListenerWD - List size is ---->0
+19:35:54.517  INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: [href='/add']
+19:35:54.568  INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: [href='/add']
+19:35:54.658  INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: .add_form__2rsm2 button
+19:35:54.724  INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: .add_form__2rsm2 button
+19:35:55.313  INFO  manager.HelperBase - Provider added contact --->Contacts(name=Inna112, lastName=Snow, phone=123456112, email=inna112gmail.ru, address=Haifa, description=null)
+19:35:55.314  INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: [href='/add']
+19:35:55.343  INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: [href='/add']
+19:35:55.412  INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: .add_form__2rsm2 button
+19:35:55.448  INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: .add_form__2rsm2 button
+19:35:55.990  INFO  manager.HelperBase - Provider added contact --->Contacts(name=Inna132, lastName=Snow, phone=123456132, email=inna132gmail.ru, address=Haifa, description=null)
+19:35:55.991  INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: [href='/add']
+19:35:56.042  INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: [href='/add']
+19:35:56.083  INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: .add_form__2rsm2 button
+19:35:56.120  INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: .add_form__2rsm2 button
+19:35:56.653  INFO  manager.HelperBase - Provider added contact --->Contacts(name=Inna159, lastName=Snow, phone=123456159, email=inna159gmail.ru, address=Haifa, description=null)
+19:35:56.655  INFO  manager.ListenerWD - before Find Elements By ---> By.cssSelector: .contact-item_card__2SOIM
+19:36:01.725  INFO  manager.ListenerWD - After Find Elements By ---> By.cssSelector: .contact-item_card__2SOIM
+19:36:01.726  INFO  manager.ListenerWD - List size is ---->0
+19:36:01.727  INFO  manager.ListenerWD - before Find Elements By ---> By.cssSelector: .contact-item_card__2SOIM
+19:36:06.749  INFO  manager.ListenerWD - After Find Elements By ---> By.cssSelector: .contact-item_card__2SOIM
+19:36:06.749  INFO  manager.ListenerWD - List size is ---->0
+19:36:06.749  INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: .contact-item_card__2SOIM
+19:36:11.832  INFO  manager.ListenerWD - We have a 'problem'
+19:36:11.833  INFO  manager.ListenerWD - The name of error method findElement
+19:36:11.841  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".contact-item_card__2SOIM"}
+  (Session info: chrome=106.0.5249.91)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d01b9fad57991d3ac872a92f0c9f0a6, findElement {using=css selector, value=.contact-item_card__2SOIM}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir13920_429...}, goog:chromeOptions: {debuggerAddress: localhost:54404}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54404/devtoo..., se:cdpVersion: 106.0.5249.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d01b9fad57991d3ac872a92f0c9f0a6
+19:36:11.842  INFO  manager.ListenerWD - **********************
+19:36:11.852  INFO  manager.ListenerWD - Screen with error is 1296 ***  src/test/screenshots/screen1296.png

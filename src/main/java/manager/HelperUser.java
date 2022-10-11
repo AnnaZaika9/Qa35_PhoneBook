@@ -32,6 +32,7 @@ public class HelperUser extends HelperBase{
     }
     public void openLoginRegistrationForm(){
         WebElement loginTab = wd.findElement(By.xpath("//a[@href='/login']"));
+    //   WebElement loginTab = wd.findElement(By.xpath("//a[@href='/l']"));
         loginTab.click();
     }
 
@@ -76,7 +77,8 @@ public class HelperUser extends HelperBase{
         System.out.println(errorText);
         //click OK
         alert.accept();
-        return errorText.contains("Wrong email or password format");
+        return errorText.contains("Wrong email or password format")||errorText.contains("Undefined Error 500");
+
 
         /*
         //click Cancel

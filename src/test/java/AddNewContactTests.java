@@ -14,7 +14,7 @@ public class AddNewContactTests extends TestBase{
        if(!app.getHelperUser().isLogged())
            app.getHelperUser().login(new User().withEmail("Nik@gmail.com").withPassword("123589$Nik"));
     }
-    @Test
+    @Test(invocationCount = 3)
     public void addNewContactSuccess(){
 
         Random random= new Random();
