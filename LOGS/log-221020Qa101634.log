@@ -1,0 +1,62 @@
+10:16:38.674  INFO  manager.ApplicationManager - Chrome Driver was opened
+10:16:41.351  INFO  manager.ApplicationManager - Current URL is --->https://contacts-app.tobbymarshall815.vercel.app/home
+10:16:41.441  INFO  TestBase - START TEST WITH NAME: registrationSuccessDP
+10:16:41.445  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+10:16:46.487  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+10:16:46.488  INFO  manager.ListenerWD - List size is ---->0
+10:16:46.495  INFO  TestBase - data for test: User{email='Anton9988@ukr.net', password='Aa987654321$'}
+10:16:46.496  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+10:16:46.557  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+10:16:46.676  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+10:16:46.727  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+10:16:46.995  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+10:16:47.053  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+10:16:47.240  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[2]
+10:16:47.281  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[2]
+10:16:47.342  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+10:16:48.171  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+10:16:48.172  INFO  manager.ListenerWD - List size is ---->1
+10:16:48.189  INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.contact-page_message__2qafk>h1
+10:16:48.345  INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.contact-page_message__2qafk>h1
+10:16:48.376  INFO  TestBase - START TEST WITH NAME: registrationSuccessDP
+10:16:48.379  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+10:16:48.404  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+10:16:48.405  INFO  manager.ListenerWD - List size is ---->1
+10:16:48.405  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[text()='Sign Out']
+10:16:48.437  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[text()='Sign Out']
+10:16:48.506  INFO  TestBase - data for test: User{email='Misha7744@gmail.com', password='Mm987654321&'}
+10:16:48.507  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+10:16:48.552  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+10:16:48.610  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+10:16:48.648  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+10:16:48.846  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+10:16:48.872  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+10:16:49.075  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[2]
+10:16:49.107  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[2]
+10:16:49.195  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+10:16:49.322  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+10:16:49.322  INFO  manager.ListenerWD - List size is ---->0
+10:16:49.350  INFO  TestBase - START TEST WITH NAME: registrationSuccessDP
+10:16:49.352  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+10:16:49.417  INFO  manager.ListenerWD - We have a 'problem'
+10:16:49.418  INFO  manager.ListenerWD - The name of error method findElements
+10:16:49.422  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!}
+  (Session info: chrome=106.0.5249.119): Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eefaf9a360059eccfbdd406be0de1b28, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir3580_2246...}, goog:chromeOptions: {debuggerAddress: localhost:59559}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59559/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eefaf9a360059eccfbdd406be0de1b28
+10:16:49.423  INFO  manager.ListenerWD - **********************
+10:16:49.435  INFO  manager.ListenerWD - Screen with error is 1932 ***  src/test/screenshots/screen1932.png

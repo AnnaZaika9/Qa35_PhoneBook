@@ -1,0 +1,40 @@
+10:14:09.129  INFO  manager.ApplicationManager - Chrome Driver was opened
+10:14:12.472  INFO  manager.ApplicationManager - Current URL is --->https://contacts-app.tobbymarshall815.vercel.app/home
+10:14:12.559  INFO  TestBase - START TEST WITH NAME: registrationSuccessDP
+10:14:12.562  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+10:14:17.601  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+10:14:17.601  INFO  manager.ListenerWD - List size is ---->0
+10:14:17.609  INFO  TestBase - data for test: User{email='', password='null'}
+10:14:17.612  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+10:14:17.664  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+10:14:17.765  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+10:14:17.817  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+10:14:17.992  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[2]
+10:14:18.039  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[2]
+10:14:18.110  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+10:14:19.112  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+10:14:19.113  INFO  manager.ListenerWD - List size is ---->0
+10:14:19.149  INFO  TestBase - START TEST WITH NAME: registrationSuccessDP
+10:14:19.152  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+10:14:19.194  INFO  manager.ListenerWD - We have a 'problem'
+10:14:19.198  INFO  manager.ListenerWD - The name of error method findElements
+10:14:19.207  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!}
+  (Session info: chrome=106.0.5249.119): Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [175a7b73d3b02cb85e7c20c3b7b59b0c, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir20220_678...}, goog:chromeOptions: {debuggerAddress: localhost:59453}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59453/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 175a7b73d3b02cb85e7c20c3b7b59b0c
+10:14:19.210  INFO  manager.ListenerWD - **********************
+10:14:19.235  INFO  manager.ListenerWD - Screen with error is 1739 ***  src/test/screenshots/screen1739.png

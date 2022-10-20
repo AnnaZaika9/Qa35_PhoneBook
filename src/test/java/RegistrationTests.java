@@ -1,3 +1,4 @@
+import manager.DataProviderUser;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -10,6 +11,16 @@ public class RegistrationTests extends TestBase {
     public void precondition() {
         if (app.getHelperUser().isLogged())
             app.getHelperUser().logout();
+    }
+    @Test(dataProvider = "registrationDataValid", dataProviderClass = DataProviderUser.class)
+    public void registrationSuccessDP(User user){
+
+        logger.info("data for test: "+ user.toString());
+        app.getHelperUser().openLoginRegistrationForm();
+        app.getHelperUser().fillLoginRegistrationForm(user);
+        app.getHelperUser().submitRegistration();
+        Assert.assertTrue(app.getHelperUser().isLogged());
+        Assert.assertTrue(app.getHelperUser().isNoContactsHereDisplayed());
     }
 
     @Test

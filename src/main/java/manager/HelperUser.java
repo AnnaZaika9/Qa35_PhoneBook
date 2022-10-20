@@ -77,8 +77,7 @@ public class HelperUser extends HelperBase{
         System.out.println(errorText);
         //click OK
         alert.accept();
-        return errorText.contains("Wrong email or password format")||errorText.contains("Undefined Error 500");
-
+        return errorText.contains("Wrong email or password format");
 
         /*
         //click Cancel
@@ -86,6 +85,15 @@ public class HelperUser extends HelperBase{
         //type text
         alert.sendKeys("Hello");
          */
+    }
+    public boolean isErrorUndefined() {
+        Alert alert = wd.switchTo().alert();
+        String errorText = alert.getText();
+        System.out.println(errorText);
+
+        alert.accept();
+        return errorText.contains("Undefined Error 500");
+
     }
 
 

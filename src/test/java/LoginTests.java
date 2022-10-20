@@ -27,7 +27,7 @@ public class LoginTests extends TestBase {
     }
 
 
-    @Test(dataProvider = "dataModelUser",dataProviderClass = DataProviderUser.class)
+    @Test(dataProvider = "loginDataModel",dataProviderClass = DataProviderUser.class)
     public void loginSuccessModel(User user) {
 //        User user = new User();
 //        user.setEmail("noa");
@@ -42,7 +42,7 @@ public class LoginTests extends TestBase {
         Assert.assertTrue(app.getHelperUser().isLogged());
 
     }
-    @Test(dataProvider = "datalogin",dataProviderClass = DataProviderUser.class)
+    @Test(dataProvider = "loginData",dataProviderClass = DataProviderUser.class)
     public void loginSuccess(String email,String password) {
 
         logger.info("Login scenario success was used data email: "+ email + "& password: "+password);
@@ -69,6 +69,19 @@ public class LoginTests extends TestBase {
 
         logger.info("In assert checked error message 'Wrong email or password format' ");
     }
+    @Test(dataProvider = "dataloginWrongEmailError500",dataProviderClass = DataProviderUser.class)
+    public void loginNegativeWrongEmailFormat2(User user) {
+        logger.info("Login negative scenario with wrong email was used data: "+user.toString());
+
+        app.getHelperUser().openLoginRegistrationForm();
+        app.getHelperUser().fillLoginRegistrationForm(user);
+        app.getHelperUser().submitLogin();
+        Assert.assertFalse(app.getHelperUser().isLogged());
+        Assert.assertTrue(app.getHelperUser().isAlertPresent());
+        Assert.assertTrue(app.getHelperUser().isErrorUndefined());
+
+        logger.info("In assert checked error message 'Wrong email or password format' ");
+    }
 
     @Test(dataProvider = "dataloginWrongPassword",dataProviderClass = DataProviderUser.class)
     public void loginNegativeWrongPasswordFormat(User user) {
@@ -80,6 +93,20 @@ public class LoginTests extends TestBase {
         Assert.assertFalse(app.getHelperUser().isLogged());
         Assert.assertTrue(app.getHelperUser().isAlertPresent());
         Assert.assertTrue(app.getHelperUser().isErrorWrongFormat());
+
+        logger.info("In assert checked error message 'Wrong email or password format' ");
+    }
+
+    @Test(dataProvider = "dataloginWrongPasswordError500",dataProviderClass = DataProviderUser.class)
+    public void loginNegativeWrongPasswordFormat2(User user) {
+
+        logger.info("Login negative scenario with wrong password was used data: "+user.toString());
+        app.getHelperUser().openLoginRegistrationForm();
+        app.getHelperUser().fillLoginRegistrationForm(user);
+        app.getHelperUser().submitLogin();
+        Assert.assertFalse(app.getHelperUser().isLogged());
+        Assert.assertTrue(app.getHelperUser().isAlertPresent());
+        Assert.assertTrue(app.getHelperUser().isErrorUndefined());
 
         logger.info("In assert checked error message 'Wrong email or password format' ");
     }

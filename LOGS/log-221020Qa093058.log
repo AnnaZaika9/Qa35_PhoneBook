@@ -1,0 +1,141 @@
+09:31:05.801  INFO  manager.ApplicationManager - Chrome Driver was opened
+09:31:08.688  INFO  manager.ApplicationManager - Current URL is --->https://contacts-app.tobbymarshall815.vercel.app/home
+09:31:08.846  INFO  TestBase - START TEST WITH NAME: loginNegativeWrongPasswordFormat
+09:31:08.856  INFO  TestBase - Start checking authorization
+09:31:08.864  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:31:13.978  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:31:13.979  INFO  manager.ListenerWD - List size is ---->0
+09:31:13.982  INFO  TestBase - Test was not needed in logout 
+09:31:13.994  INFO  TestBase - Login negative scenario with wrong password was used data: User{email='Nik@gmail.com', password='1235890Nik'}
+09:31:13.995  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+09:31:14.051  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+09:31:14.219  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+09:31:14.277  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+09:31:14.529  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+09:31:14.575  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+09:31:14.836  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //*[text()=' Login']
+09:31:14.884  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //*[text()=' Login']
+09:31:14.968  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:31:20.015  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:31:20.016  INFO  manager.ListenerWD - List size is ---->0
+09:31:20.065  INFO  manager.ListenerWD - We have a 'problem'
+09:31:20.066  INFO  manager.ListenerWD - The name of error method alert
+09:31:20.072  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [03e1e7ac4ea3269793a80a94fc9201c4, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir19332_577...}, goog:chromeOptions: {debuggerAddress: localhost:58101}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58101/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 03e1e7ac4ea3269793a80a94fc9201c4
+09:31:20.073  INFO  manager.ListenerWD - **********************
+09:31:20.081  INFO  manager.ListenerWD - Screen with error is 1137 ***  src/test/screenshots/screen1137.png
+09:31:20.148  INFO  TestBase - START TEST WITH NAME: loginNegativeWrongPasswordFormat
+09:31:20.149  INFO  TestBase - Start checking authorization
+09:31:20.150  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:31:25.528  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:31:25.528  INFO  manager.ListenerWD - List size is ---->0
+09:31:25.529  INFO  TestBase - Test was not needed in logout 
+09:31:25.530  INFO  TestBase - Login negative scenario with wrong password was used data: User{email='Nik@gmail.com', password='123589$nik'}
+09:31:25.531  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+09:31:25.596  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+09:31:25.664  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+09:31:30.691  INFO  manager.ListenerWD - We have a 'problem'
+09:31:30.692  INFO  manager.ListenerWD - The name of error method findElement
+09:31:30.693  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Email']"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [03e1e7ac4ea3269793a80a94fc9201c4, findElement {using=xpath, value=//input[@placeholder='Email']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir19332_577...}, goog:chromeOptions: {debuggerAddress: localhost:58101}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58101/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 03e1e7ac4ea3269793a80a94fc9201c4
+09:31:30.694  INFO  manager.ListenerWD - **********************
+09:31:30.695  INFO  manager.ListenerWD - Screen with error is 1196 ***  src/test/screenshots/screen1196.png
+09:31:31.302  INFO  TestBase - START TEST WITH NAME: loginNegativeWrongPasswordFormat
+09:31:31.305  INFO  TestBase - Start checking authorization
+09:31:31.305  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:31:31.999  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:31:32.000  INFO  manager.ListenerWD - List size is ---->0
+09:31:32.000  INFO  TestBase - Test was not needed in logout 
+09:31:32.001  INFO  TestBase - Login negative scenario with wrong password was used data: User{email='Nik@gmail.com', password='123589$NIK'}
+09:31:32.002  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+09:31:32.016  INFO  manager.ListenerWD - We have a 'problem'
+09:31:32.016  INFO  manager.ListenerWD - The name of error method findElement
+09:31:32.017  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!}
+  (Session info: chrome=106.0.5249.119): Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [03e1e7ac4ea3269793a80a94fc9201c4, findElement {using=xpath, value=//a[@href='/login']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir19332_577...}, goog:chromeOptions: {debuggerAddress: localhost:58101}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58101/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 03e1e7ac4ea3269793a80a94fc9201c4
+09:31:32.019  INFO  manager.ListenerWD - **********************
+09:31:32.019  INFO  manager.ListenerWD - Screen with error is 1885 ***  src/test/screenshots/screen1885.png
+09:31:32.733  INFO  TestBase - START TEST WITH NAME: loginNegativeWrongPasswordFormat
+09:31:32.735  INFO  TestBase - Start checking authorization
+09:31:32.735  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:31:37.783  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:31:37.784  INFO  manager.ListenerWD - List size is ---->0
+09:31:37.784  INFO  TestBase - Test was not needed in logout 
+09:31:37.785  INFO  TestBase - Login negative scenario with wrong password was used data: User{email='Nik@gmail.com', password='$Nikiknik'}
+09:31:37.785  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+09:31:37.811  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+09:31:37.847  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+09:31:37.884  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+09:31:38.159  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+09:31:38.196  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+09:31:38.378  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //*[text()=' Login']
+09:31:38.405  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //*[text()=' Login']
+09:31:38.469  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:31:38.734  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:31:38.734  INFO  manager.ListenerWD - List size is ---->0
+09:31:38.834  INFO  TestBase - In assert checked error message 'Wrong email or password format' 
+09:31:38.837  INFO  TestBase - START TEST WITH NAME: loginNegativeWrongPasswordFormat
+09:31:38.855  INFO  TestBase - Start checking authorization
+09:31:38.862  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:31:43.938  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:31:43.939  INFO  manager.ListenerWD - List size is ---->0
+09:31:43.939  INFO  TestBase - Test was not needed in logout 
+09:31:43.942  INFO  TestBase - Login negative scenario with wrong password was used data: User{email='Nik@gmail.com', password='123589$Ник'}
+09:31:43.946  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+09:31:43.995  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+09:31:44.051  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+09:31:44.114  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+09:31:44.297  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+09:31:44.317  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+09:31:44.494  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //*[text()=' Login']
+09:31:44.514  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //*[text()=' Login']
+09:31:44.569  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:31:45.078  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:31:45.079  INFO  manager.ListenerWD - List size is ---->0
+09:31:45.218  INFO  TestBase - START TEST WITH NAME: loginNegativeWrongPasswordFormat
+09:31:45.227  INFO  TestBase - Start checking authorization
+09:31:45.227  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:31:50.253  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:31:50.254  INFO  manager.ListenerWD - List size is ---->0
+09:31:50.254  INFO  TestBase - Test was not needed in logout 
+09:31:50.257  INFO  TestBase - Login negative scenario with wrong password was used data: User{email='Nik@gmail.com', password='589$Nik'}
+09:31:50.259  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+09:31:50.301  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+09:31:50.355  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+09:31:50.383  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+09:31:50.584  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+09:31:50.608  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+09:31:50.792  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //*[text()=' Login']
+09:31:50.823  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //*[text()=' Login']
+09:31:50.909  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:31:51.296  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:31:51.297  INFO  manager.ListenerWD - List size is ---->0
+09:31:51.395  INFO  TestBase - In assert checked error message 'Wrong email or password format' 

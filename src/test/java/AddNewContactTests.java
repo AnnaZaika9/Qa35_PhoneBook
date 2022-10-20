@@ -1,4 +1,5 @@
 
+import manager.DataProviderContact;
 import models.Contacts;
 import models.User;
 import org.testng.Assert;
@@ -13,6 +14,18 @@ public class AddNewContactTests extends TestBase{
     public void precondition(){
        if(!app.getHelperUser().isLogged())
            app.getHelperUser().login(new User().withEmail("Nik@gmail.com").withPassword("123589$Nik"));
+    }
+
+    @Test(dataProvider = "contactsDataValid", dataProviderClass = DataProviderContact.class)
+    public void addNewContactSuccessDP(Contacts contacts){
+
+        app.getContacts().openContactForm();
+        app.getContacts().fillContactForm(contacts);
+        app.getContacts().saveContact();
+
+        Assert.assertTrue(app.getContacts().isContactAddedByName(contacts.getName()));
+        Assert.assertTrue(app.getContacts().isContactAddedByPhone(contacts.getPhone()));
+
     }
     @Test(invocationCount = 3)
     public void addNewContactSuccess(){

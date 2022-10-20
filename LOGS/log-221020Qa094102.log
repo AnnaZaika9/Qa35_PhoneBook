@@ -1,0 +1,78 @@
+09:41:06.962  INFO  manager.ApplicationManager - Chrome Driver was opened
+09:41:09.882  INFO  manager.ApplicationManager - Current URL is --->https://contacts-app.tobbymarshall815.vercel.app/home
+09:41:09.969  INFO  TestBase - START TEST WITH NAME: loginNegativeWrongEmailFormat2
+09:41:09.972  INFO  TestBase - Start checking authorization
+09:41:09.973  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:41:15.001  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:41:15.001  INFO  manager.ListenerWD - List size is ---->0
+09:41:15.002  INFO  TestBase - Test was not needed in logout 
+09:41:15.007  INFO  TestBase - Login negative scenario with wrong email was used data: User{email='@gmail.com', password='123589$Nik'}
+09:41:15.008  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+09:41:15.050  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+09:41:15.178  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+09:41:15.229  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+09:41:15.439  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+09:41:15.482  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+09:41:15.743  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //*[text()=' Login']
+09:41:15.792  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //*[text()=' Login']
+09:41:15.866  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:41:16.666  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:41:16.667  INFO  manager.ListenerWD - List size is ---->0
+09:41:16.746  INFO  TestBase - In assert checked error message 'Wrong email or password format' 
+09:41:16.781  INFO  TestBase - START TEST WITH NAME: loginNegativeWrongEmailFormat2
+09:41:16.783  INFO  TestBase - Start checking authorization
+09:41:16.790  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:41:21.825  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:41:21.825  INFO  manager.ListenerWD - List size is ---->0
+09:41:21.825  INFO  TestBase - Test was not needed in logout 
+09:41:21.826  INFO  TestBase - Login negative scenario with wrong email was used data: User{email='k@gmail.com', password='123589$Nik'}
+09:41:21.827  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+09:41:21.860  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+09:41:21.921  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+09:41:21.958  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+09:41:22.291  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+09:41:22.321  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+09:41:22.581  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //*[text()=' Login']
+09:41:22.618  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //*[text()=' Login']
+09:41:22.696  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:41:23.012  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:41:23.012  INFO  manager.ListenerWD - List size is ---->0
+09:41:23.091  INFO  TestBase - In assert checked error message 'Wrong email or password format' 
+09:41:23.094  INFO  TestBase - START TEST WITH NAME: loginNegativeWrongEmailFormat2
+09:41:23.099  INFO  TestBase - Start checking authorization
+09:41:23.100  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:41:28.137  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:41:28.137  INFO  manager.ListenerWD - List size is ---->0
+09:41:28.138  INFO  TestBase - Test was not needed in logout 
+09:41:28.139  INFO  TestBase - Login negative scenario with wrong email was used data: User{email='Ник@gmail.com', password='123589$Nik'}
+09:41:28.140  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+09:41:28.170  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+09:41:28.213  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+09:41:28.249  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+09:41:28.439  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+09:41:28.461  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+09:41:28.641  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //*[text()=' Login']
+09:41:28.660  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //*[text()=' Login']
+09:41:28.712  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:41:28.923  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:41:28.925  INFO  manager.ListenerWD - List size is ---->0
+09:41:29.010  INFO  TestBase - In assert checked error message 'Wrong email or password format' 
+09:41:29.013  INFO  TestBase - START TEST WITH NAME: loginNegativeWrongEmailFormat2
+09:41:29.016  INFO  TestBase - Start checking authorization
+09:41:29.017  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:41:34.043  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:41:34.044  INFO  manager.ListenerWD - List size is ---->0
+09:41:34.046  INFO  TestBase - Test was not needed in logout 
+09:41:34.049  INFO  TestBase - Login negative scenario with wrong email was used data: User{email=' Nik@gmail.com', password='123589$Nik'}
+09:41:34.050  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+09:41:34.091  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+09:41:34.136  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+09:41:34.165  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+09:41:34.360  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+09:41:34.380  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+09:41:34.549  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //*[text()=' Login']
+09:41:34.570  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //*[text()=' Login']
+09:41:34.618  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:41:35.090  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+09:41:35.091  INFO  manager.ListenerWD - List size is ---->0
+09:41:35.156  INFO  TestBase - In assert checked error message 'Wrong email or password format' 
