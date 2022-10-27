@@ -1,0 +1,49 @@
+13:05:03.625  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+13:05:06.788  INFO  manager.ApplicationManager - Current URL is --->https://contacts-app.tobbymarshall815.vercel.app/home
+13:05:06.865  INFO  TestBase - START TEST WITH NAME: registrationSuccess
+13:05:06.871  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:05:11.925  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:05:11.926  INFO  manager.ListenerWD - List size is ---->0
+13:05:11.929  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+13:05:11.980  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+13:05:12.096  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:05:12.158  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:05:12.434  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:05:12.487  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:05:12.701  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[2]
+13:05:12.741  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[2]
+13:05:14.825  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:05:14.851  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:05:14.852  INFO  manager.ListenerWD - List size is ---->1
+13:05:14.873  INFO  TestBase - START TEST WITH NAME: registrationSuccessDP
+13:05:14.874  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:05:14.905  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:05:14.905  INFO  manager.ListenerWD - List size is ---->1
+13:05:14.905  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[text()='Sign Out']
+13:05:14.936  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[text()='Sign Out']
+13:05:15.021  INFO  TestBase - data for test: User{email='Anton9989i@ukr.net', password='Aai987654321$$'}
+13:05:15.022  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+13:05:15.054  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+13:05:15.113  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:05:15.144  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:05:15.338  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:05:15.365  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:05:15.538  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[2]
+13:05:15.564  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[2]
+13:05:15.612  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:05:15.791  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:05:15.791  INFO  manager.ListenerWD - List size is ---->0
+13:05:15.818  INFO  TestBase - START TEST WITH NAME: registrationSuccessDP
+13:05:15.823  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:05:15.871  INFO  manager.ListenerWD - We have a 'problem'
+13:05:15.871  INFO  manager.ListenerWD - The name of error method findElements
+13:05:15.887  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=106.0.5249.119): User already exist
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [34ffb8a97c801b2a05f521f5336a28fc, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Temp\scoped_dir10112_673...}, goog:chromeOptions: {debuggerAddress: localhost:54158}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54158/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 34ffb8a97c801b2a05f521f5336a28fc
+13:05:15.888  INFO  manager.ListenerWD - **********************
+13:05:15.901  INFO  manager.ListenerWD - Screen with error is 1993 ***  src/test/screenshots/screen1993.png

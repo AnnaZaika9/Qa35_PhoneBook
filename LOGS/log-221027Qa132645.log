@@ -1,0 +1,186 @@
+13:26:57.036  INFO  manager.ApplicationManager - All tests start in  Firefox
+13:27:00.055  INFO  manager.ApplicationManager - Current URL is --->https://contacts-app.tobbymarshall815.vercel.app/home
+13:27:00.228  INFO  TestBase - START TEST WITH NAME: registrationSuccess
+13:27:00.233  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:27:05.271  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:27:05.272  INFO  manager.ListenerWD - List size is ---->0
+13:27:05.274  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+13:27:05.318  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+13:27:05.594  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:27:05.628  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:27:05.961  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:27:05.990  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:27:06.281  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[2]
+13:27:06.307  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[2]
+13:27:08.536  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:27:08.580  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:27:08.581  INFO  manager.ListenerWD - List size is ---->1
+13:27:08.588  INFO  TestBase - START TEST WITH NAME: registrationSuccessModels
+13:27:08.592  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:27:08.622  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:27:08.623  INFO  manager.ListenerWD - List size is ---->1
+13:27:08.623  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[text()='Sign Out']
+13:27:08.650  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[text()='Sign Out']
+13:27:08.886  INFO  TestBase - data for test: User{email='Nik1628@gmail.com', password='123589$Nik'}
+13:27:08.886  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+13:27:08.915  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+13:27:09.141  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:27:09.181  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:27:09.482  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:27:09.514  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:27:09.795  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[2]
+13:27:09.819  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[2]
+13:27:10.053  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:27:10.076  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:27:10.077  INFO  manager.ListenerWD - List size is ---->1
+13:27:10.083  INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.contact-page_message__2qafk>h1
+13:27:10.153  INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.contact-page_message__2qafk>h1
+13:27:10.207  INFO  TestBase - START TEST WITH NAME: registrationSuccessModels
+13:27:10.209  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:27:10.240  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:27:10.240  INFO  manager.ListenerWD - List size is ---->1
+13:27:10.242  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[text()='Sign Out']
+13:27:10.268  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[text()='Sign Out']
+13:27:10.501  INFO  TestBase - data for test: User{email='Nik1630@gmail.com', password='123589$Nik'}
+13:27:10.501  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+13:27:10.523  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+13:27:10.754  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:27:10.787  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:27:11.083  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:27:11.104  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:27:11.385  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[2]
+13:27:11.407  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[2]
+13:27:11.638  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:27:11.659  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:27:11.660  INFO  manager.ListenerWD - List size is ---->1
+13:27:11.662  INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.contact-page_message__2qafk>h1
+13:27:11.718  INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.contact-page_message__2qafk>h1
+13:27:11.730  INFO  TestBase - START TEST WITH NAME: registrationSuccessModels
+13:27:11.732  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:27:11.752  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:27:11.752  INFO  manager.ListenerWD - List size is ---->1
+13:27:11.753  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[text()='Sign Out']
+13:27:11.783  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[text()='Sign Out']
+13:27:12.019  INFO  TestBase - data for test: User{email='Nik1632@gmail.com', password='123589$Nik'}
+13:27:12.019  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+13:27:12.040  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+13:27:12.269  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:27:12.294  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:27:12.582  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:27:12.604  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:27:12.881  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[2]
+13:27:12.905  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[2]
+13:27:13.126  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:27:13.143  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:27:13.143  INFO  manager.ListenerWD - List size is ---->1
+13:27:13.144  INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.contact-page_message__2qafk>h1
+13:27:13.233  INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.contact-page_message__2qafk>h1
+13:27:13.249  INFO  TestBase - START TEST WITH NAME: registrationUserAlreadyExists
+13:27:13.250  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:27:13.267  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:27:13.269  INFO  manager.ListenerWD - List size is ---->1
+13:27:13.271  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[text()='Sign Out']
+13:27:13.299  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[text()='Sign Out']
+13:27:13.541  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+13:27:13.568  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+13:27:13.790  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:27:13.836  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:27:14.100  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:27:14.117  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:27:14.389  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[2]
+13:27:14.406  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[2]
+13:27:14.637  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:27:14.707  INFO  manager.ListenerWD - We have a 'problem'
+13:27:14.708  INFO  manager.ListenerWD - The name of error method findElements
+13:27:14.716  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: User already exist: 
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6685c227-b02c-48e1-a0b9-c2fd76790495, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.2, moz:accessibilityChecks: false, moz:buildID: 20221025065831, moz:debuggerAddress: 127.0.0.1:58165, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7948, moz:profile: C:\Temp\rust_mozprofileXIjPoo, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:58165/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6685c227-b02c-48e1-a0b9-c2fd76790495
+13:27:14.717  INFO  manager.ListenerWD - **********************
+13:27:14.734  INFO  manager.ListenerWD - Screen with error is 1081 ***  src/test/screenshots/screen1081.png
+13:27:14.768  INFO  TestBase - START TEST WITH NAME: registrationWrongEmail
+13:27:14.769  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:27:19.781  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:27:19.782  INFO  manager.ListenerWD - List size is ---->0
+13:27:19.783  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+13:27:19.800  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+13:27:20.027  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:27:20.047  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:27:20.350  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:27:20.376  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:27:20.669  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[2]
+13:27:20.695  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[2]
+13:27:20.928  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:27:21.058  INFO  manager.ListenerWD - We have a 'problem'
+13:27:21.059  INFO  manager.ListenerWD - The name of error method findElements
+13:27:21.061  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.WebDriverException: Failed to interpret value as array
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6685c227-b02c-48e1-a0b9-c2fd76790495, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.2, moz:accessibilityChecks: false, moz:buildID: 20221025065831, moz:debuggerAddress: 127.0.0.1:58165, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7948, moz:profile: C:\Temp\rust_mozprofileXIjPoo, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:58165/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6685c227-b02c-48e1-a0b9-c2fd76790495
+13:27:21.062  INFO  manager.ListenerWD - **********************
+13:27:21.062  INFO  manager.ListenerWD - Screen with error is 1548 ***  src/test/screenshots/screen1548.png
+13:27:21.080  INFO  TestBase - START TEST WITH NAME: registrationWrongPassword
+13:27:21.084  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:27:21.116  INFO  manager.ListenerWD - We have a 'problem'
+13:27:21.117  INFO  manager.ListenerWD - The name of error method findElements
+13:27:21.117  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!: 
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6685c227-b02c-48e1-a0b9-c2fd76790495, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.2, moz:accessibilityChecks: false, moz:buildID: 20221025065831, moz:debuggerAddress: 127.0.0.1:58165, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7948, moz:profile: C:\Temp\rust_mozprofileXIjPoo, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:58165/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6685c227-b02c-48e1-a0b9-c2fd76790495
+13:27:21.119  INFO  manager.ListenerWD - **********************
+13:27:21.120  INFO  manager.ListenerWD - Screen with error is 1411 ***  src/test/screenshots/screen1411.png
+13:27:21.179  INFO  TestBase - START TEST WITH NAME: loginNegativeWrongEmailFormat2
+13:27:21.182  INFO  TestBase - Start checking authorization
+13:27:21.184  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:27:26.209  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:27:26.209  INFO  manager.ListenerWD - List size is ---->0
+13:27:26.210  INFO  TestBase - Test was not needed in logout 
+13:27:26.212  INFO  TestBase - Login negative scenario with wrong email was used data: User{email='@gmail.com', password='123589$Nik'}
+13:27:26.213  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+13:27:26.232  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+13:27:26.456  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:27:26.472  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:27:26.770  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:27:26.797  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:27:27.098  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //*[text()=' Login']
+13:27:27.120  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //*[text()=' Login']
+13:27:27.343  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:27:27.502  INFO  manager.ListenerWD - We have a 'problem'
+13:27:27.502  INFO  manager.ListenerWD - The name of error method findElements
+13:27:27.503  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.WebDriverException: Failed to interpret value as array
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6685c227-b02c-48e1-a0b9-c2fd76790495, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.2, moz:accessibilityChecks: false, moz:buildID: 20221025065831, moz:debuggerAddress: 127.0.0.1:58165, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7948, moz:profile: C:\Temp\rust_mozprofileXIjPoo, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:58165/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6685c227-b02c-48e1-a0b9-c2fd76790495
+13:27:27.503  INFO  manager.ListenerWD - **********************
+13:27:27.503  INFO  manager.ListenerWD - Screen with error is 1710 ***  src/test/screenshots/screen1710.png
+13:27:27.521  INFO  TestBase - START TEST WITH NAME: loginNegativeWrongEmailFormat2
+13:27:27.524  INFO  TestBase - Start checking authorization
+13:27:27.526  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:27:27.563  INFO  manager.ListenerWD - We have a 'problem'
+13:27:27.563  INFO  manager.ListenerWD - The name of error method findElements
+13:27:27.564  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: Undefined Error 500: 
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6685c227-b02c-48e1-a0b9-c2fd76790495, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.2, moz:accessibilityChecks: false, moz:buildID: 20221025065831, moz:debuggerAddress: 127.0.0.1:58165, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7948, moz:profile: C:\Temp\rust_mozprofileXIjPoo, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:58165/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6685c227-b02c-48e1-a0b9-c2fd76790495
+13:27:27.565  INFO  manager.ListenerWD - **********************
+13:27:27.566  INFO  manager.ListenerWD - Screen with error is 1516 ***  src/test/screenshots/screen1516.png

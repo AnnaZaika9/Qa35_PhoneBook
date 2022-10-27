@@ -2,12 +2,7 @@ import manager.DataProviderUser;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
 
 
 public class LoginTests extends TestBase {

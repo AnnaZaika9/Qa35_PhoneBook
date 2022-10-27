@@ -12,7 +12,7 @@ public class RegistrationTests extends TestBase {
         if (app.getHelperUser().isLogged())
             app.getHelperUser().logout();
     }
-    @Test(dataProvider = "registrationDataValid", dataProviderClass = DataProviderUser.class)
+    @Test(dataProvider = "registrationDataValid", dataProviderClass = DataProviderUser.class,enabled = false)
     public void registrationSuccessDP(User user){
 
         logger.info("data for test: "+ user.toString());

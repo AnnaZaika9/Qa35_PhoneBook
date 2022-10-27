@@ -1,0 +1,340 @@
+13:23:42.523  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+13:23:45.783  INFO  manager.ApplicationManager - Current URL is --->https://contacts-app.tobbymarshall815.vercel.app/home
+13:23:46.120  INFO  TestBase - START TEST WITH NAME: registrationSuccess
+13:23:46.127  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:23:51.181  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:23:51.182  INFO  manager.ListenerWD - List size is ---->0
+13:23:51.185  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+13:23:51.234  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+13:23:51.422  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:23:51.496  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:23:51.917  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:23:51.981  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:23:52.228  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[2]
+13:23:52.278  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[2]
+13:23:54.353  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:23:54.386  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:23:54.386  INFO  manager.ListenerWD - List size is ---->1
+13:23:54.399  INFO  TestBase - START TEST WITH NAME: registrationSuccessModels
+13:23:54.401  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:23:54.437  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:23:54.437  INFO  manager.ListenerWD - List size is ---->1
+13:23:54.438  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[text()='Sign Out']
+13:23:54.493  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[text()='Sign Out']
+13:23:54.591  INFO  TestBase - data for test: User{email='Nik1434@gmail.com', password='123589$Nik'}
+13:23:54.592  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+13:23:54.638  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+13:23:54.790  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:23:54.838  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:23:55.116  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:23:55.156  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:23:55.417  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[2]
+13:23:55.453  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[2]
+13:23:55.539  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:23:55.743  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:23:55.745  INFO  manager.ListenerWD - List size is ---->1
+13:23:55.783  INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.contact-page_message__2qafk>h1
+13:23:55.949  INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.contact-page_message__2qafk>h1
+13:23:55.989  INFO  TestBase - START TEST WITH NAME: registrationSuccessModels
+13:23:55.993  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:23:56.033  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:23:56.034  INFO  manager.ListenerWD - List size is ---->1
+13:23:56.035  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[text()='Sign Out']
+13:23:56.078  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[text()='Sign Out']
+13:23:56.187  INFO  TestBase - data for test: User{email='Nik1436@gmail.com', password='123589$Nik'}
+13:23:56.188  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+13:23:56.227  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+13:23:56.303  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:23:56.334  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:23:56.599  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:23:56.634  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:23:56.871  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[2]
+13:23:56.902  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[2]
+13:23:56.969  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:23:57.386  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:23:57.387  INFO  manager.ListenerWD - List size is ---->1
+13:23:57.389  INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.contact-page_message__2qafk>h1
+13:23:57.494  INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.contact-page_message__2qafk>h1
+13:23:57.535  INFO  TestBase - START TEST WITH NAME: registrationSuccessModels
+13:23:57.538  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:23:57.585  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:23:57.585  INFO  manager.ListenerWD - List size is ---->1
+13:23:57.586  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[text()='Sign Out']
+13:23:57.655  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[text()='Sign Out']
+13:23:57.806  INFO  TestBase - data for test: User{email='Nik1437@gmail.com', password='123589$Nik'}
+13:23:57.809  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+13:23:57.878  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+13:23:58.027  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:23:58.076  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:23:58.371  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:23:58.403  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:23:58.698  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[2]
+13:23:58.724  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[2]
+13:23:58.809  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:23:59.126  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:23:59.127  INFO  manager.ListenerWD - List size is ---->1
+13:23:59.127  INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.contact-page_message__2qafk>h1
+13:23:59.361  INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.contact-page_message__2qafk>h1
+13:23:59.447  INFO  TestBase - START TEST WITH NAME: registrationUserAlreadyExists
+13:23:59.448  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:23:59.483  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:23:59.484  INFO  manager.ListenerWD - List size is ---->1
+13:23:59.484  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[text()='Sign Out']
+13:23:59.519  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[text()='Sign Out']
+13:23:59.619  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+13:23:59.654  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+13:23:59.768  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:23:59.816  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:24:00.081  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:24:00.113  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:24:00.329  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[2]
+13:24:00.351  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[2]
+13:24:00.408  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:00.537  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:00.537  INFO  manager.ListenerWD - List size is ---->0
+13:24:00.587  INFO  TestBase - START TEST WITH NAME: registrationWrongEmail
+13:24:00.594  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:05.618  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:05.619  INFO  manager.ListenerWD - List size is ---->0
+13:24:05.620  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+13:24:05.638  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+13:24:05.682  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:24:05.711  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:24:06.009  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:24:06.043  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:24:06.265  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[2]
+13:24:06.292  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[2]
+13:24:06.355  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:06.767  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:06.768  INFO  manager.ListenerWD - List size is ---->0
+13:24:06.815  INFO  TestBase - START TEST WITH NAME: registrationWrongPassword
+13:24:06.817  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:11.876  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:11.877  INFO  manager.ListenerWD - List size is ---->0
+13:24:11.878  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+13:24:11.899  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+13:24:11.948  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:24:11.978  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:24:12.177  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:24:12.202  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:24:12.395  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[2]
+13:24:12.420  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[2]
+13:24:12.477  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:12.613  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:12.613  INFO  manager.ListenerWD - List size is ---->0
+13:24:12.698  INFO  TestBase - START TEST WITH NAME: loginNegativeWrongEmailFormat2
+13:24:12.700  INFO  TestBase - Start checking authorization
+13:24:12.701  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:17.771  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:17.771  INFO  manager.ListenerWD - List size is ---->0
+13:24:17.772  INFO  TestBase - Test was not needed in logout 
+13:24:17.773  INFO  TestBase - Login negative scenario with wrong email was used data: User{email='@gmail.com', password='123589$Nik'}
+13:24:17.774  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+13:24:17.794  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+13:24:17.841  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:24:17.870  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:24:18.070  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:24:18.089  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:24:18.290  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //*[text()=' Login']
+13:24:18.314  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //*[text()=' Login']
+13:24:18.376  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:18.951  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:18.951  INFO  manager.ListenerWD - List size is ---->0
+13:24:19.008  INFO  TestBase - In assert checked error message 'Wrong email or password format' 
+13:24:19.011  INFO  TestBase - START TEST WITH NAME: loginNegativeWrongEmailFormat2
+13:24:19.012  INFO  TestBase - Start checking authorization
+13:24:19.012  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:24.076  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:24.076  INFO  manager.ListenerWD - List size is ---->0
+13:24:24.077  INFO  TestBase - Test was not needed in logout 
+13:24:24.078  INFO  TestBase - Login negative scenario with wrong email was used data: User{email='k@gmail.com', password='123589$Nik'}
+13:24:24.079  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+13:24:24.105  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+13:24:24.146  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:24:24.185  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:24:24.397  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:24:24.416  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:24:24.682  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //*[text()=' Login']
+13:24:24.711  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //*[text()=' Login']
+13:24:24.765  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:24.896  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:24.897  INFO  manager.ListenerWD - List size is ---->0
+13:24:24.992  INFO  TestBase - In assert checked error message 'Wrong email or password format' 
+13:24:24.994  INFO  TestBase - START TEST WITH NAME: loginNegativeWrongEmailFormat2
+13:24:24.997  INFO  TestBase - Start checking authorization
+13:24:24.998  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:30.064  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:30.064  INFO  manager.ListenerWD - List size is ---->0
+13:24:30.064  INFO  TestBase - Test was not needed in logout 
+13:24:30.065  INFO  TestBase - Login negative scenario with wrong email was used data: User{email='�?ик@gmail.com', password='123589$Nik'}
+13:24:30.068  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+13:24:30.087  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+13:24:30.129  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:24:30.167  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:24:30.425  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:24:30.443  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:24:30.625  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //*[text()=' Login']
+13:24:30.643  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //*[text()=' Login']
+13:24:30.691  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:31.162  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:31.162  INFO  manager.ListenerWD - List size is ---->0
+13:24:31.244  INFO  TestBase - In assert checked error message 'Wrong email or password format' 
+13:24:31.248  INFO  TestBase - START TEST WITH NAME: loginNegativeWrongEmailFormat2
+13:24:31.257  INFO  TestBase - Start checking authorization
+13:24:31.258  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:36.293  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:36.293  INFO  manager.ListenerWD - List size is ---->0
+13:24:36.293  INFO  TestBase - Test was not needed in logout 
+13:24:36.294  INFO  TestBase - Login negative scenario with wrong email was used data: User{email=' Nik@gmail.com', password='123589$Nik'}
+13:24:36.294  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+13:24:36.312  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+13:24:36.372  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:24:36.400  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:24:36.604  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:24:36.625  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:24:36.828  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //*[text()=' Login']
+13:24:36.850  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //*[text()=' Login']
+13:24:36.903  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:37.309  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:37.309  INFO  manager.ListenerWD - List size is ---->0
+13:24:37.382  INFO  TestBase - In assert checked error message 'Wrong email or password format' 
+13:24:37.393  INFO  TestBase - START TEST WITH NAME: loginNegativeWrongPasswordFormat2
+13:24:37.428  INFO  TestBase - Start checking authorization
+13:24:37.428  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:42.469  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:42.469  INFO  manager.ListenerWD - List size is ---->0
+13:24:42.470  INFO  TestBase - Test was not needed in logout 
+13:24:42.472  INFO  TestBase - Login negative scenario with wrong password was used data: User{email='Nik@gmail.com', password='123589$�?ик'}
+13:24:42.473  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+13:24:42.500  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+13:24:42.549  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:24:42.576  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:24:42.806  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:24:42.824  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:24:43.072  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //*[text()=' Login']
+13:24:43.095  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //*[text()=' Login']
+13:24:43.159  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:43.341  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:43.341  INFO  manager.ListenerWD - List size is ---->0
+13:24:43.389  INFO  TestBase - In assert checked error message 'Wrong email or password format' 
+13:24:43.407  INFO  TestBase - START TEST WITH NAME: loginSuccess
+13:24:43.409  INFO  TestBase - Start checking authorization
+13:24:43.410  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:48.469  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:48.469  INFO  manager.ListenerWD - List size is ---->0
+13:24:48.470  INFO  TestBase - Test was not needed in logout 
+13:24:48.471  INFO  TestBase - Login scenario success was used data email: Nik@gmail.com& password: 123589$Nik
+13:24:48.471  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+13:24:48.488  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+13:24:48.536  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:24:48.561  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:24:48.783  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:24:48.800  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:24:48.991  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //*[text()=' Login']
+13:24:49.009  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //*[text()=' Login']
+13:24:49.060  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:49.492  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:49.492  INFO  manager.ListenerWD - List size is ---->1
+13:24:49.492  INFO  TestBase - Assert check is Sign Out button Present
+13:24:49.494  INFO  TestBase - START TEST WITH NAME: loginSuccess
+13:24:49.496  INFO  TestBase - Start checking authorization
+13:24:49.498  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:49.518  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:49.518  INFO  manager.ListenerWD - List size is ---->1
+13:24:49.518  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[text()='Sign Out']
+13:24:49.542  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[text()='Sign Out']
+13:24:49.631  INFO  TestBase - Test was needed in logout 
+13:24:49.633  INFO  TestBase - Login scenario success was used data email: shu@ukr.net& password: $987987SHu
+13:24:49.634  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+13:24:49.670  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+13:24:49.726  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:24:49.747  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:24:49.986  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:24:50.006  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:24:50.221  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //*[text()=' Login']
+13:24:50.244  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //*[text()=' Login']
+13:24:50.300  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:50.489  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:50.490  INFO  manager.ListenerWD - List size is ---->1
+13:24:50.490  INFO  TestBase - Assert check is Sign Out button Present
+13:24:50.492  INFO  TestBase - START TEST WITH NAME: loginSuccess
+13:24:50.494  INFO  TestBase - Start checking authorization
+13:24:50.494  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:50.519  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:50.519  INFO  manager.ListenerWD - List size is ---->1
+13:24:50.520  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[text()='Sign Out']
+13:24:50.539  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[text()='Sign Out']
+13:24:50.635  INFO  TestBase - Test was needed in logout 
+13:24:50.636  INFO  TestBase - Login scenario success was used data email: tanya@mail.ru& password: Ta12587$nya
+13:24:50.636  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+13:24:50.671  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+13:24:50.748  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:24:50.792  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:24:50.960  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:24:50.985  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:24:51.150  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //*[text()=' Login']
+13:24:51.171  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //*[text()=' Login']
+13:24:51.226  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:51.421  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:51.421  INFO  manager.ListenerWD - List size is ---->1
+13:24:51.421  INFO  TestBase - Assert check is Sign Out button Present
+13:24:51.425  INFO  TestBase - START TEST WITH NAME: loginSuccessModel
+13:24:51.427  INFO  TestBase - Start checking authorization
+13:24:51.427  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:51.451  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:51.451  INFO  manager.ListenerWD - List size is ---->1
+13:24:51.451  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[text()='Sign Out']
+13:24:51.474  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[text()='Sign Out']
+13:24:51.571  INFO  TestBase - Test was needed in logout 
+13:24:51.573  INFO  TestBase - Login scenario success was used data: User{email='Nik2701@gmail.com', password='123589$Nik'}
+13:24:51.574  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+13:24:51.602  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+13:24:51.649  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:24:51.668  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:24:51.849  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:24:51.868  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:24:52.052  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //*[text()=' Login']
+13:24:52.071  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //*[text()=' Login']
+13:24:52.123  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:52.259  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:52.260  INFO  manager.ListenerWD - List size is ---->1
+13:24:52.262  INFO  TestBase - START TEST WITH NAME: loginSuccessModel
+13:24:52.263  INFO  TestBase - Start checking authorization
+13:24:52.263  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:52.283  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:52.283  INFO  manager.ListenerWD - List size is ---->1
+13:24:52.283  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[text()='Sign Out']
+13:24:52.309  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[text()='Sign Out']
+13:24:52.380  INFO  TestBase - Test was needed in logout 
+13:24:52.382  INFO  TestBase - Login scenario success was used data: User{email='Nik2703@gmail.com', password='123589$Nik'}
+13:24:52.383  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+13:24:52.407  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+13:24:52.467  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:24:52.488  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:24:52.682  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:24:52.700  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:24:52.853  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //*[text()=' Login']
+13:24:52.871  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //*[text()=' Login']
+13:24:52.927  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:53.059  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:53.059  INFO  manager.ListenerWD - List size is ---->1
+13:24:53.062  INFO  TestBase - START TEST WITH NAME: loginSuccessModel
+13:24:53.064  INFO  TestBase - Start checking authorization
+13:24:53.066  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:53.085  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:53.085  INFO  manager.ListenerWD - List size is ---->1
+13:24:53.085  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[text()='Sign Out']
+13:24:53.103  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[text()='Sign Out']
+13:24:53.173  INFO  TestBase - Test was needed in logout 
+13:24:53.176  INFO  TestBase - Login scenario success was used data: User{email='Nik2704@gmail.com', password='123589$Nik'}
+13:24:53.178  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+13:24:53.206  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+13:24:53.258  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:24:53.275  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:24:53.456  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:24:53.472  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:24:53.696  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //*[text()=' Login']
+13:24:53.713  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //*[text()=' Login']
+13:24:53.766  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:53.966  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:24:53.966  INFO  manager.ListenerWD - List size is ---->1
