@@ -9,7 +9,7 @@ public class LoginTests extends TestBase {
 
 
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void precondition() {
         logger.info("Start checking authorization");
         if (app.getHelperUser().isLogged()) {
@@ -23,7 +23,7 @@ public class LoginTests extends TestBase {
 
 
     @Test(dataProvider = "loginDataModel",dataProviderClass = DataProviderUser.class)
-    public void loginSuccessModel(User user) {
+    public void loginSuccessModelDP(User user) {
 //        User user = new User();
 //        user.setEmail("noa");
 //        user.setPassword("Nnoa");
@@ -35,7 +35,18 @@ public class LoginTests extends TestBase {
         app.getHelperUser().submitLogin();
 
         Assert.assertTrue(app.getHelperUser().isLogged());
+    }
+    @Test(groups = {"smoke"})
+    public void loginSuccessModel() {
 
+        User user = new User().withEmail("Nik@gmail.com").withPassword("123589$Nik");
+
+        logger.info("Login scenario success was used data: "+user.toString());
+        app.getHelperUser().openLoginRegistrationForm();
+        app.getHelperUser().fillLoginRegistrationForm(user);
+        app.getHelperUser().submitLogin();
+
+        Assert.assertTrue(app.getHelperUser().isLogged());
     }
     @Test(dataProvider = "loginData",dataProviderClass = DataProviderUser.class)
     public void loginSuccess(String email,String password) {

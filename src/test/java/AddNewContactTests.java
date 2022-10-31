@@ -10,7 +10,7 @@ import java.util.Random;
 
 public class AddNewContactTests extends TestBase{
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void precondition(){
        if(!app.getHelperUser().isLogged())
            app.getHelperUser().login(new User().withEmail("Nik@gmail.com").withPassword("123589$Nik"));
@@ -57,7 +57,7 @@ public class AddNewContactTests extends TestBase{
         Assert.assertTrue(app.getContacts().isContactAddedByPhone(contacts.getPhone()));
 
          }
-    @Test
+    @Test(groups = {"smoke","sanity"})
     public void addNewContactSuccessRequiredFields(){
 
         Random random= new Random();
@@ -97,12 +97,6 @@ public class AddNewContactTests extends TestBase{
         app.getContacts().saveContact();
 
         Assert.assertTrue(app.getContacts().isAddPageStillDisplayed());
-
-
-
-
     }
-
-
 
 }

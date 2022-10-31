@@ -1,0 +1,35 @@
+12:40:28.963  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+12:40:32.246  INFO  manager.ApplicationManager - Current URL is --->https://contacts-app.tobbymarshall815.vercel.app/home
+12:40:32.345  INFO  TestBase - START TEST WITH NAME: addNewContactSuccessRequiredFields
+12:40:32.348  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+12:40:37.407  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+12:40:37.408  INFO  manager.ListenerWD - List size is ---->0
+12:40:37.409  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+12:40:37.451  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+12:40:37.565  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+12:40:37.625  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+12:40:37.852  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+12:40:37.911  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+12:40:38.135  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //*[text()=' Login']
+12:40:38.177  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //*[text()=' Login']
+12:40:38.249  INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: [href='/add']
+12:40:39.088  INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: [href='/add']
+12:40:39.171  INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: [placeholder='Name']
+12:40:39.217  INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: [placeholder='Name']
+12:40:39.393  INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: [placeholder='Last Name']
+12:40:39.428  INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: [placeholder='Last Name']
+12:40:39.577  INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: [placeholder='Phone']
+12:40:39.615  INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: [placeholder='Phone']
+12:40:39.807  INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: [placeholder='email']
+12:40:39.839  INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: [placeholder='email']
+12:40:40.012  INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: [placeholder='Address']
+12:40:40.043  INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: [placeholder='Address']
+12:40:40.222  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button/b
+12:40:40.258  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button/b
+12:40:40.309  INFO  manager.ListenerWD - before Find Elements By ---> By.cssSelector: h2
+12:40:40.893  INFO  manager.ListenerWD - After Find Elements By ---> By.cssSelector: h2
+12:40:40.894  INFO  manager.ListenerWD - List size is ---->10
+12:40:41.122  INFO  manager.ListenerWD - before Find Elements By ---> By.cssSelector: h3
+12:40:41.262  INFO  manager.ListenerWD - After Find Elements By ---> By.cssSelector: h3
+12:40:41.263  INFO  manager.ListenerWD - List size is ---->10
+12:40:41.532  INFO  TestBase - Tests start with data ---> Contacts(name=Alex1329, lastName=Smal, phone=809351329, email=Jon1329@ukr.net, address=Kiev, Ukraine, description=null)

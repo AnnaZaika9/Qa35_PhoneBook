@@ -14,25 +14,22 @@ public class TestBase {
 
     static ApplicationManager app = new ApplicationManager(System.getProperty("browser", Browser.CHROME.browserName()));
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void getTestName(Method m){
         logger.info("START TEST WITH NAME: "+m.getName());
 
     }
 
-    @BeforeSuite
+    @BeforeSuite(alwaysRun = true)
     public void setUp() {
         app.init();
 
     }
 
-    @AfterSuite
+    @AfterSuite(alwaysRun = true)
     public void tearDown() {
         app.stop();
 
     }
-
-
-
 
 }
