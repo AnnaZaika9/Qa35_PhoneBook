@@ -1,0 +1,98 @@
+13:05:12.839  INFO  manager.ApplicationManager - All tests start in  Firefox
+13:05:16.658  INFO  manager.ApplicationManager - Current URL is --->https://contacts-app.tobbymarshall815.vercel.app/home
+13:05:16.760  INFO  TestBase - START TEST WITH NAME: registrationWrongEmail
+13:05:16.763  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:05:21.868  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:05:21.869  INFO  manager.ListenerWD - List size is ---->0
+13:05:21.876  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+13:05:21.925  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+13:05:22.247  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:05:22.294  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:05:22.615  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:05:22.643  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:05:22.939  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[2]
+13:05:22.969  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[2]
+13:05:23.217  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:05:24.089  INFO  manager.ListenerWD - We have a 'problem'
+13:05:24.090  INFO  manager.ListenerWD - The name of error method findElements
+13:05:24.096  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.WebDriverException: Failed to interpret value as array
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a7dcaee0-129c-4c99-b970-5e8320596fc7, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.2, moz:accessibilityChecks: false, moz:buildID: 20221025065831, moz:debuggerAddress: 127.0.0.1:63284, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15084, moz:profile: C:\Temp\rust_mozprofile4E3cYp, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:63284/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a7dcaee0-129c-4c99-b970-5e8320596fc7
+13:05:24.097  INFO  manager.ListenerWD - **********************
+13:05:24.102  INFO  manager.ListenerWD - Screen with error is 1866 ***  src/test/screenshots/screen1866.png
+13:05:24.146  INFO  TestBase - START TEST WITH NAME: loginSuccessModel
+13:05:24.151  INFO  TestBase - Start checking authorization
+13:05:24.152  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:05:24.201  INFO  manager.ListenerWD - We have a 'problem'
+13:05:24.202  INFO  manager.ListenerWD - The name of error method findElements
+13:05:24.205  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!: 
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FMI0Q92', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a7dcaee0-129c-4c99-b970-5e8320596fc7, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 106.0.2, moz:accessibilityChecks: false, moz:buildID: 20221025065831, moz:debuggerAddress: 127.0.0.1:63284, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15084, moz:profile: C:\Temp\rust_mozprofile4E3cYp, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:63284/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a7dcaee0-129c-4c99-b970-5e8320596fc7
+13:05:24.209  INFO  manager.ListenerWD - **********************
+13:05:24.209  INFO  manager.ListenerWD - Screen with error is 1055 ***  src/test/screenshots/screen1055.png
+13:05:24.227  INFO  TestBase - START TEST WITH NAME: addNewContactSuccessRequiredFields
+13:05:24.229  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:05:29.268  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:05:29.269  INFO  manager.ListenerWD - List size is ---->0
+13:05:29.270  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[@href='/login']
+13:05:29.299  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[@href='/login']
+13:05:29.529  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:05:29.564  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Email']
+13:05:29.902  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:05:29.940  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //input[@placeholder='Password']
+13:05:30.246  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //*[text()=' Login']
+13:05:30.278  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //*[text()=' Login']
+13:05:30.520  INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: [href='/add']
+13:05:30.730  INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: [href='/add']
+13:05:30.995  INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: [placeholder='Name']
+13:05:31.018  INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: [placeholder='Name']
+13:05:31.332  INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: [placeholder='Last Name']
+13:05:31.391  INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: [placeholder='Last Name']
+13:05:31.697  INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: [placeholder='Phone']
+13:05:31.718  INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: [placeholder='Phone']
+13:05:31.993  INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: [placeholder='email']
+13:05:32.011  INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: [placeholder='email']
+13:05:32.297  INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: [placeholder='Address']
+13:05:32.320  INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: [placeholder='Address']
+13:05:32.607  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button/b
+13:05:32.625  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button/b
+13:05:32.847  INFO  manager.ListenerWD - before Find Elements By ---> By.cssSelector: h2
+13:05:33.553  INFO  manager.ListenerWD - After Find Elements By ---> By.cssSelector: h2
+13:05:33.553  INFO  manager.ListenerWD - List size is ---->20
+13:05:33.727  INFO  manager.ListenerWD - before Find Elements By ---> By.cssSelector: h3
+13:05:33.909  INFO  manager.ListenerWD - After Find Elements By ---> By.cssSelector: h3
+13:05:33.910  INFO  manager.ListenerWD - List size is ---->20
+13:05:34.088  INFO  TestBase - Tests start with data ---> Contacts(name=Alex1297, lastName=Smal, phone=809351297, email=Jon1297@ukr.net, address=Kiev, Ukraine, description=null)
+13:05:34.092  INFO  TestBase - START TEST WITH NAME: removeFirstContact
+13:05:34.093  INFO  manager.ListenerWD - before Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:05:34.109  INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //button[text()='Sign Out']
+13:05:34.110  INFO  manager.ListenerWD - List size is ---->1
+13:05:34.110  INFO  manager.ListenerWD - before Find Elements By ---> By.cssSelector: .contact-item_card__2SOIM
+13:05:34.307  INFO  manager.ListenerWD - After Find Elements By ---> By.cssSelector: .contact-item_card__2SOIM
+13:05:34.309  INFO  manager.ListenerWD - List size is ---->20
+13:05:34.311  INFO  manager.ListenerWD - before Find Elements By ---> By.cssSelector: .contact-item_card__2SOIM
+13:05:34.498  INFO  manager.ListenerWD - After Find Elements By ---> By.cssSelector: .contact-item_card__2SOIM
+13:05:34.498  INFO  manager.ListenerWD - List size is ---->20
+13:05:34.498  INFO  manager.ListenerWD - before Find Elements By ---> By.cssSelector: .contact-item_card__2SOIM
+13:05:34.650  INFO  manager.ListenerWD - After Find Elements By ---> By.cssSelector: .contact-item_card__2SOIM
+13:05:34.651  INFO  manager.ListenerWD - List size is ---->20
+13:05:34.653  INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: .contact-item_card__2SOIM
+13:05:34.667  INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: .contact-item_card__2SOIM
+13:05:34.902  INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //button[text()='Remove']
+13:05:34.926  INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //button[text()='Remove']
+13:05:37.145  INFO  manager.ListenerWD - before Find Elements By ---> By.cssSelector: .contact-item_card__2SOIM
+13:05:37.320  INFO  manager.ListenerWD - After Find Elements By ---> By.cssSelector: .contact-item_card__2SOIM
+13:05:37.321  INFO  manager.ListenerWD - List size is ---->19
